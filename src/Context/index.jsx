@@ -27,7 +27,7 @@ export const ShoppingCartProvider = ({children}) => {
     //My Account
     const [ account, setAccount ] = useState({})
 
-    //Sing Out
+    //Sign Out
     const [ signOut, setSignOut ] = useState(false)
     
     //Shopping Cart Increment quantity

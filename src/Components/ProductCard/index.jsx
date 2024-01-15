@@ -51,7 +51,7 @@ const ProductCard = (data) => {
                     alt={data.data.title} />
                     {renderIcon(data.data.id)}
             </figure>
-            <p className="flex justify-between">
+            <p className="flex justify-between items-center">
                 <span className="text-sm font-light">
                     {data.data.title}
                 </span>
